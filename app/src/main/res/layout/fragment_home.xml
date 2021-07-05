@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/newsTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginVertical="5dp"
+        android:text="News"
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+
+    <HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ScrNews"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_below="@+id/newsTv"
+        android:layout_marginHorizontal="10dp"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/newsGallery"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <androidx.appcompat.widget.Toolbar
+
+        android:id="@+id/paymentToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@id/ScrNews"
+        android:layout_marginTop="10dp"
+        android:background="@color/grey"
+        android:minHeight="?attr/actionBarSize"
+        app:menu="@menu/menu_nav_bottom"
+        app:subtitleTextColor="@color/black"
+        app:title="Payment History"
+        app:titleTextAppearance="@style/Widget.MaterialComponents.Snackbar.TextView"
+        app:titleTextColor="@android:color/black">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/paymentHistorySv"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/paymentToolbar"
+        android:scrollbars="none"
+        android:layout_marginHorizontal="10dp"
+        android:fillViewport="true">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/paymentHistoryLl"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <androidx.appcompat.widget.Toolbar
+
+        android:id="@+id/govtServicesToolBar"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@id/paymentHistorySv"
+        android:background="@color/grey"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_marginTop="10dp"
+        app:menu="@menu/menu_govt_services"
+        app:subtitleTextColor="@color/black"
+        app:title="Government Services"
+        app:titleTextAppearance="@style/Widget.MaterialComponents.Snackbar.TextView"
+        app:titleTextColor="@android:color/black"/>
+
+
+
+
+        <LinearLayout
+            android:id="@+id/govtServicesNavLl"
+            android:layout_gravity="center"
+            android:layout_below="@id/govtServicesToolBar"
+            android:background="@drawable/nav_background_curved"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_margin="10dp"/>
+
+    <androidx.appcompat.widget.Toolbar
+
+        android:id="@+id/otherToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@id/govtServicesNavLl"
+        android:background="@color/grey"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_marginTop="10dp"
+        app:menu="@menu/menu_other"
+        app:subtitleTextColor="@color/black"
+        app:title="Other Services"
+        app:titleTextAppearance="@style/Widget.MaterialComponents.Snackbar.TextView"
+        app:titleTextColor="@android:color/black"/>
+
+
+
+
+    <LinearLayout
+        android:id="@+id/otherLl"
+        android:layout_gravity="center"
+        android:layout_below="@id/otherToolbar"
+        android:background="@drawable/nav_background_curved"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_margin="10dp"/>
+
+
+
+
+</RelativeLayout>

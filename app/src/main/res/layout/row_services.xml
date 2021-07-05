@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="5dp"
+    app:cardElevation="10dp"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginVertical="10dp"
+    app:contentPadding="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/serviceImg1"
+            android:layout_width="80dp"
+            android:padding="10dp"
+            android:layout_height="60dp"
+            android:layout_marginEnd="5dp"
+            android:src="@drawable/ic_services"
+            android:layout_marginRight="5dp" />
+
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:layout_below="@+id/serviceImg1">
+
+            <TextView
+                android:id="@+id/serviceText1"
+                android:layout_width="wrap_content"            android:padding="10dp"
+                android:layout_height="wrap_content"
+                android:text="Services1"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/serviceImg2"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:padding="10dp"
+            android:layout_toRightOf="@id/serviceImg1"
+            android:layout_marginEnd="5dp"
+            android:src="@drawable/ic_services"
+            android:layout_marginRight="5dp" />
+
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_toRightOf="@+id/serviceImg1"
+            android:layout_below="@+id/serviceImg1">
+
+            <TextView
+                android:id="@+id/serviceText2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Services2"
+
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/serviceImg3"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_toRightOf="@id/serviceImg2"
+            android:layout_marginEnd="5dp"
+            android:padding="10dp"
+
+            android:src="@drawable/ic_services"
+            android:layout_marginRight="5dp" />
+
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:layout_toRightOf="@+id/serviceImg2"
+            android:layout_below="@+id/serviceImg1">
+
+            <TextView
+                android:id="@+id/serviceText3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Services3"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/serviceImg4"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_toRightOf="@id/serviceImg3"
+            android:layout_marginEnd="5dp"
+            android:padding="10dp"
+
+            android:src="@drawable/ic_services"
+            android:layout_marginRight="5dp" />
+
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:layout_toRightOf="@+id/serviceImg3"
+            android:layout_below="@+id/serviceImg1">
+
+            <TextView
+                android:id="@+id/serviceText4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Services4"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="100dp"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/serviceImg5"
+            android:layout_width="80dp"
+            android:padding="10dp"
+
+            android:layout_height="60dp"
+            android:layout_marginEnd="5dp"
+            android:src="@drawable/ic_services"
+            android:layout_marginRight="5dp" />
+
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_below="@+id/serviceImg5">
+
+            <TextView
+                android:id="@+id/serviceText5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Services5"
+
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/serviceImg6"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:padding="10dp"
+
+            android:layout_toRightOf="@id/serviceImg5"
+            android:layout_marginEnd="5dp"
+            android:src="@drawable/ic_services"
+            android:layout_marginRight="5dp" />
+
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:layout_toRightOf="@+id/serviceImg5"
+            android:layout_below="@+id/serviceImg6">
+
+            <TextView
+                android:id="@+id/serviceText6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Services6"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/serviceImg7"
+            android:layout_width="80dp"
+            android:padding="10dp"
+
+            android:layout_height="60dp"
+            android:layout_toRightOf="@id/serviceImg6"
+            android:layout_marginEnd="5dp"
+            android:src="@drawable/ic_services"
+            android:layout_marginRight="5dp" />
+
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:layout_toRightOf="@+id/serviceImg6"
+            android:layout_below="@+id/serviceImg7">
+
+            <TextView
+                android:id="@+id/serviceText7"
+                android:layout_width="wrap_content"
+                android:text="Services7"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/serviceImg8"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:padding="10dp"
+
+            android:layout_toRightOf="@id/serviceImg7"
+            android:layout_marginEnd="5dp"
+            android:src="@drawable/ic_services"
+            android:layout_marginRight="5dp" />
+
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:layout_toRightOf="@+id/serviceImg7"
+            android:layout_below="@+id/serviceImg8">
+
+            <TextView
+                android:id="@+id/serviceText8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Services8"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

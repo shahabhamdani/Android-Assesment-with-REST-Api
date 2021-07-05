@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="100dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    app:cardElevation="0dp"
+    android:layout_height="90dp">
+
+
+    <ImageView
+        android:id="@+id/centerNavIv"
+        android:layout_width="80dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="60dp"
+        android:padding="10dp"
+        android:src="@drawable/ic_services"/>
+
+    <TextView
+        android:id="@+id/centerNavTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="9dp"
+        android:textAlignment="center"
+        android:layout_marginTop="60dp"
+        android:text="Working with Government"/>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/utilityItem"
+        android:icon="@drawable/ic_home"
+        android:title="Utility Bills"></item>
+
+    <item
+        android:id="@+id/newsItem"
+        android:icon="@drawable/ic_services"
+        android:title="Sharjah 24 News"></item>
+
+    <item
+        android:id="@+id/medAppItem"
+        android:icon="@drawable/ic_posts"
+        android:title="Medicine App"></item>
+
+    <item
+        android:id="@+id/libraryItem"
+        android:icon="@drawable/ic_posts"
+        android:title="Media"></item>
+
+</menu>

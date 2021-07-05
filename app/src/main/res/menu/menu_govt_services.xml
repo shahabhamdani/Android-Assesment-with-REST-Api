@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+        <item
+            android:id="@+id/workingWithGovtItem"
+            android:icon="@drawable/ic_home"
+            android:title="Working with Government"></item>
+
+        <item
+            android:id="@+id/vehicleAndTransportItem"
+            android:icon="@drawable/ic_services"
+            android:title="Vehicles and Transport"></item>
+
+        <item
+            android:id="@+id/housingPropertyItem"
+            android:icon="@drawable/ic_posts"
+            android:title="Housing and Property"></item>
+
+        <item
+            android:id="@+id/mediaItem"
+            android:icon="@drawable/ic_posts"
+            android:title="Media"></item>
+
+</menu>

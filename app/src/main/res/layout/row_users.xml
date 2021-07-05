@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:layout_height="100dp">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    >
+
+    <TextView
+        android:id="@+id/userIdTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Id:  "
+        android:textColor="@color/black"
+        android:textSize="16dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/userIdTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:text="200"
+        android:layout_toRightOf="@id/userIdTxt"/>
+
+    <TextView
+        android:id="@+id/idText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Id: "
+        android:textColor="@color/black"
+
+        android:textSize="16dp"
+        android:layout_below="@+id/userIdTxt">
+    </TextView>
+
+    <TextView
+        android:id="@+id/idTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:text="200"
+        android:layout_below="@+id/userIdTxt"
+        android:layout_toRightOf="@id/userIdTxt"/>
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title: "
+        android:textColor="@color/black"
+
+        android:textSize="16dp"
+        android:layout_below="@+id/idText">
+    </TextView>
+
+    <TextView
+        android:id="@+id/titleTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:text="200"
+        android:layout_below="@+id/idText"
+        android:layout_toRightOf="@id/userIdTxt"/>
+
+    <TextView
+        android:id="@+id/bodyText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+
+        android:text="Body: "
+        android:textSize="16dp"
+        android:layout_below="@+id/titleText">
+    </TextView>
+
+    <TextView
+        android:id="@+id/bodyTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:text="200"
+        android:layout_below="@+id/titleText"
+        android:layout_toRightOf="@id/userIdTxt"/>
+
+
+</RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
